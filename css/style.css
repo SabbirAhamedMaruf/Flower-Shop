@@ -5,7 +5,16 @@
     padding: 0;
     font-family: 'Josefin Sans', sans-serif;
 }
+
+.max_viewwidth{
+    width: 100vw;
+}
+
+
+
+
 /* Header Section Styles */
+
 #header{
     display: flex;
     justify-content: space-between;
@@ -49,15 +58,39 @@
     border-radius: 2px;
 }
 
-    
-
-
-
-
-
-
 
 /* Main Content Styles */
+
+/* background */
+#bg{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.10);
+    padding: 0px 200px;
+    height: 90vh;
+}
+
+.bg_content{
+    max-width: 28vw;
+}
+
+#bg_title{
+    font-size: 60px;
+    margin-bottom: 32px;
+}
+
+#bg_text{
+    text-align: justify;
+    margin-bottom: 32px;
+}
+
+#bg_button{
+    padding: 15px 30px;
+    border: 0;
+    border-radius:3px;
+    background: #E55473;
+}
 
 
 /* Footer Section Styles */
