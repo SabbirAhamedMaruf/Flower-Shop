@@ -6,12 +6,6 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.max_viewwidth{
-    width: 100vw;
-}
-
-
-
 
 /* Header Section Styles */
 
@@ -92,5 +86,78 @@
     background: #E55473;
 }
 
+/* Featured Flowers Section */
+.featured_flowers{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 170px;
+}
+
+.featured_flowers_content{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+.featured_flowers_content h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.featured_flowers_content p{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.featured_flowers_image{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.ffi_holder{
+    height: 40vh;
+    width: 20vw;
+    position: relative;
+}
+
+.ffi_holder img{
+    position: absolute;
+    height: 30vh;
+    bottom: 0;
+}
+
+#img1{
+    left: 21%;
+}
+
+#img2{
+    left: 16%;
+}
+
+#img3{
+    left: 25%;
+}
+
+.ffi_holder:nth-child(1){
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.ffi_holder:nth-child(2){
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+
+}
+
+.ffi_holder:nth-child(3){
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
 
 /* Footer Section Styles */
