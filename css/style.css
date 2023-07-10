@@ -1,8 +1,60 @@
 /* Flowers Shop Styles */
-
 /* Universal style */
-
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
 /* Header Section Styles */
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 20px 0px;
+    background: rgba(236, 103, 132, 0.89);
+}
+
+#logo{
+    color: White;
+    font-style: italic;
+}
+#logo span{
+    font-size: 50px;
+}
+#navbar > ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar ul li{
+    list-style: none;
+    padding-right: 40px;
+}
+#navbar ul li a{
+    font-size: large;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding:0.18vw;
+    border: 3px solid transparent;  
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.active{
+    color: #6d6d6d;
+    background: white;
+    padding:0.18vw;
+    border: 3px solid white;
+    border-radius: 2px;
+}
+
+    
+
+
+
+
+
 
 
 /* Main Content Styles */
