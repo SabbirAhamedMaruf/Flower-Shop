@@ -166,4 +166,27 @@
     background: rgba(71, 125, 17, 0.15);
 }
 
+/* Services */
+.service{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    width: 62vw;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.service_content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.service_content img{
+    margin-bottom: 20px;
+}
+
 /* Footer Section Styles */
