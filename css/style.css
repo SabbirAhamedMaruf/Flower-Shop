@@ -55,7 +55,7 @@
 
 /* Main Content Styles */
 
-/* background */
+/* Background section style */
 #bg{
     display: flex;
     justify-content: space-around;
@@ -84,9 +84,11 @@
     border: 0;
     border-radius:3px;
     background: #E55473;
+    font-weight: 600;
+    color: white;
 }
 
-/* Featured Flowers Section */
+/* Featured Flowers Section style */
 .featured_flowers{
     display: flex;
     justify-content:space-between;
@@ -166,7 +168,7 @@
     background: rgba(71, 125, 17, 0.15);
 }
 
-/* Services */
+/* Services Section Style */
 .service{
     margin-top: 150px;
     display: flex;
@@ -188,5 +190,50 @@
 .service_content img{
     margin-bottom: 20px;
 }
+
+/* Banner Section style */
+.bannar{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 120px;
+    width: 1896px;
+    height: 620px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.123);
+}
+
+.banner_content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 25%;
+}
+
+#bc_title,#bc_text,#bc_button{
+    margin-bottom: 20px;
+}
+
+#bc_text{
+    text-align: center;
+}
+
+#bc_button{
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border: 0;
+    background-color: #E55473;
+    color: white;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+
+
+
 
 /* Footer Section Styles */
